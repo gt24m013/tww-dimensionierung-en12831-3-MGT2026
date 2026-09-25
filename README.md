@@ -155,6 +155,11 @@ laufen deshalb sowohl mit der Vorlage als auch mit eingetragenen Normwerten.
 
 ![Berechnungsablaufdiagramm](abbildungen/Berechnungsablaufdiagramm.png)
 
+Für den Druck liegt dieselbe Darstellung zusätzlich als zweiseitiges A4-PDF im
+Querformat bei:
+[`abbildungen/Berechnungsablaufdiagramm_A4.pdf`](abbildungen/Berechnungsablaufdiagramm_A4.pdf).
+Beide Fassungen werden von den Skripten im Ordner `abbildungen/` erzeugt.
+
 ## Lizenz
 
 MIT — siehe [LICENSE](LICENSE). Die Lizenz gilt für den Quellcode dieses
