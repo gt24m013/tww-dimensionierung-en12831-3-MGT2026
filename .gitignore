@@ -1,0 +1,28 @@
+# --- Normwerte: NICHT veröffentlichen -------------------------------------
+# Anhang B der ÖNORM EN 12831-3 ist urheberrechtlich geschützt. Die eigenen
+# Werte liegen in core/norm_werte_lokal.py und bleiben lokal; im Repository
+# steht nur core/norm_werte_vorlage.py mit Platzhaltern.
+core/norm_werte_lokal.py
+
+# --- Betriebs- und Katalogdaten -------------------------------------------
+# Hersteller-Preiskataloge, Monitoringdaten und Projektdateien enthalten
+# Geschäfts- bzw. Gebäudedaten und gehören nicht ins Repository.
+*.xlsx
+*.xlsm
+*.xls
+daten/
+monitoring/
+
+# --- Python ---------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Werkzeuge und Betriebssystem -----------------------------------------
+.claude/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

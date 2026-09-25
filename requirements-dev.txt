@@ -1,0 +1,3 @@
+# Zusätzlich zu requirements.txt nur für die Testausführung erforderlich.
+-r requirements.txt
+pytest>=9.1

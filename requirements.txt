@@ -1,0 +1,12 @@
+# Laufzeit-Abhängigkeiten des Werkzeugs.
+# Die Mindestversionen entsprechen dem Stand, mit dem die Ergebnisse der
+# Masterthesis gerechnet wurden (Python 3.14.4). Ältere Versionen sind nicht
+# geprüft; insbesondere pandas 3 und numpy 2 unterscheiden sich in einigen
+# Punkten merklich von ihren Vorgängern.
+streamlit>=1.63
+numpy>=2.5
+matplotlib>=3.11
+pandas>=3.0
+openpyxl>=3.1
+
+# Zum Ausführen der Tests zusätzlich: pip install -r requirements-dev.txt
